@@ -1,0 +1,51 @@
+body {
+    background-color: #000;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+nav {
+    width: 100%;
+    background-color: #121212;
+    color: #FFF;
+    text-align: center;
+    padding: 30px 0;
+}
+
+a {text-decoration: none;}
+
+h1 {
+    font-size: 30px;
+    color: #f5c518;
+    text-transform: uppercase;
+}
+
+label {
+    margin-right: 5%;
+    margin-left: 5px;
+}
+
+label:hover {
+    border-bottom: 2px solid #f5c518;
+    padding-bottom: 3px;
+    transition: 0.3s;
+}
+
+.container {
+    width: 80%;
+    margin: 50px 10%;
+}
+
+li {
+    list-style-type: none;
+    margin-left: -40px;
+    text-align: center;
+}
+
+#shownMovies {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 30px;
+    margin: auto;
+}
+
+img { width: 90%;}
